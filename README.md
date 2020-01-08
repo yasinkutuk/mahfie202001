@@ -1,4 +1,3 @@
-[1] 2
 # Mahfi Eğilmez - Türkiye Ekonomisinin Son 17 Yılı
 - Bu çalışma içerisinde Altınbaş Üniversitesi, Ekonomi Bölümü, Dr. Öğr. Ü. Mahfi Eğilmez Hocamın
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
@@ -37,7 +36,5 @@ mean in group 0 mean in group 1
 ### Yapısal Kırılmalı %D(GSYİH) Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/01.gsyihbuyumesi.png)
 
-### Yapısal Kırılmalı %D(GSYİH) Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/01.gsyihbuyumesi.jpg)
 
 
