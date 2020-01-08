@@ -1,4 +1,3 @@
-[1] 2
 # Mahfi Eğilmez - Türkiye Ekonomisinin Son 17 Yılı
 - Bu çalışma içerisinde Altınbaş Üniversitesi, Ekonomi Bölümü, Dr. Öğr. Ü. Mahfi Eğilmez Hocamın
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
@@ -228,5 +227,5 @@ mean in group 0 mean in group 1
 ![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/08.disborcbuyumesi.png)
 # Yayım
 Tüm hatalardan bu kodların sahibi sorumludur.
-Geri bildirimlerinizi için yasinkutuk@gmail.com.
+Geri bildirimleriniz için yasinkutuk@gmail.com.
 Teşekkürler, /Y.
