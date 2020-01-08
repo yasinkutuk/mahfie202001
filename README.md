@@ -36,3 +36,8 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı %D(GSYİH) Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/tree/master/imgs/01.gsyihbuyumesi.jpg)
+
+### Yapısal Kırılmalı %D(GSYİH) Şekli
+![alt text](https://github.com/yasinkutuk/mahfie202001/01.gsyihbuyumesi.jpg)
+
+
