@@ -6,6 +6,7 @@
 - Belirtilen kırılım "period" değişkeni altında kodlanmış olup, öncesi dönem period=0, sonrası dönem period=1 olarak işlenmektedir.
 - Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikakte alınmalıdır.
 - Tüm çalışma açık kaynak kodlu olarak gerçekleştirilmiştir.
+- İlgili kodlar mahfiegilmez.R dosyası indirilerek, veriler ise mahfiegilmez.{xlsx/csv} dosyaları indirilerek tekrarlanabilir.
 /Y.
 
 ## Değişim veya Oransal Veriler Üzerine Bağımsız İki Örneklem Testleri
@@ -112,7 +113,7 @@ sample estimates:
 mean in group 0 mean in group 1 
         8.00000        10.90588 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık vardır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı İşsizlik Eğilim Şekli
@@ -139,7 +140,7 @@ sample estimates:
 mean in group 0 mean in group 1 
           66.45           10.00 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık vardır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Enflasyon Eğilim Şekli
@@ -166,7 +167,7 @@ sample estimates:
 mean in group 0 mean in group 1 
       -5.911111       -2.435294 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık vardır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Bütçe Dengesi Eğilim Şekli
@@ -193,7 +194,7 @@ sample estimates:
 mean in group 0 mean in group 1 
      -0.6666667      -4.7117647 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık vardır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Cari Denge Eğilim Şekli
@@ -225,3 +226,7 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı Dış Borç Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/08.disborcbuyumesi.png)
+# Yayım
+Tüm hatalardan bu kodların sahibi sorumludur.
+Geri bildirimlerinizi için yasinkutuk@gmail.com.
+Teşekkürler, /Y.
