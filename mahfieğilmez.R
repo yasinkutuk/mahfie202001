@@ -31,218 +31,340 @@ cat("\n")
 cat('## Değişim veya Oransal Veriler Üzerine Bağımsız İki Örneklem Testleri')
 cat("\n")
 
-cat('### GSYİH Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')
+#### 01.GSYİHB ####
+
+cat('### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi') #***
 cat("\n")
-cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **GSYH (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')
-
-cat("\n")
-wilcox.test(gsyihbuyumesi~period)
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **GSYH (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.') #***
 
 cat("\n")
 
-t.test(gsyihbuyumesi~period)
+wilcox.test(gsyihbuyumesi~period) #***
 
-cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')
+cat("\n")
+
+t.test(gsyihbuyumesi~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.') #***
 cat("\n")
 cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.')
 cat("\n")
 sink()
 
-png("/home/yasin/Desktop/mahfiegilmez/imgs/01.gsyihbuyumesi.png", width = w, height = h) 
+
+png("/home/yasin/Desktop/mahfiegilmez/imgs/01.gsyihbuyumesi.png", width = w, height = h)  #***
 ggplot(me, aes(x = yillar, y = gsyihbuyumesi,group=period)) +
   geom_point(alpha=0) +
-  geom_line(aes(color = "GSYİH Büyümesi"), size = 0.2) +
+  geom_line(aes(color = "GSYİH Büyümesi"), size = 0.2) + #***
   stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
   stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
 dev.off()
 
 
+
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T) 
 cat("\n")
+cat('### Yapısal Kırılmalı %D(GSYİH) Eğilim Şekli') #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/01.gsyihbuyumesi.png)") #***
+cat("\n")
+sink()
+
+
+
+#### 02.KBGSYİHB ####
 sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
-cat('### Yapısal Kırılmalı %D(GSYİH) Şekli')
+cat('### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
 cat("\n")
-cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/01.gsyihbuyumesi.jpg)")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Kişi Başına Gelir (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
+
 cat("\n")
 
+wilcox.test(kbgsyihbuyumesi~period)  #***
+
+cat("\n")
+
+t.test(kbgsyihbuyumesi~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
+
+
+
+png("/home/yasin/Desktop/mahfiegilmez/imgs/02.kbgsyihbuyumesi.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = kbgsyihbuyumesi,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "KBGSYİH Büyümesi"), size = 0.2) +  #***
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
+
+
+
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı %D(KBGSYİH) Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/02.kbgsyihbuyumesi.png)")  #***
+cat("\n")
+sink()
 
 
 
 
 
-## `STATA Data Processing`
 
-**Useful Shortcuts** | (STATA)
--------------------- | --------------------
-  **`Ctrl + 8`**: open the data editor | **`clear`**: delete data in memory
-**`F2(keyboard buttons)`**: describe data | **`Ctrl + 9`**: open a new .do file 
-**`PgUp`**: scroll through previous commands | **`PgDn`**: scroll through previous commands
-**`Tab`**: autocompletes variable name after typing part | **`cls`**: clear the console 
+#### 03.BÜYÜME ####
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat('### Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
+cat("\n")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Büyüme** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
 
-### STATA - Set up
-- **`pwd`**: print current (working) directory
-- **`cd`**: change working directory
-- **`dir`**: display filenames in working directory
-- **`fs *.dta`**: List all Stata data in working directory
-- **`capture log close`**: close the log on any existing do files
-- **`log using "myDoFile.txt", replace`**: create a new log file to record your work and results
-- **`search mdesc`**: find the package mdesc to install
-- **`ssc install mdesc`**: install the package mdesc; needs to be done once
+cat("\n")
 
-### STATA - Import Data
-- **`sysuse auto, clear`**: load system data (Auto data)
-- **`use "yourStataFile.dta", clear`**: load a dataset from the current directory
+wilcox.test(buyume~period)  #***
 
-### STATA - Basic Syntax
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Basic%20Syntax.JPG)
+cat("\n")
 
-### STATA Basic Data Operations
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Basic%20Data%20Operations.JPG)
+t.test(buyume~period) #***
 
-### STATA - Explore Data
-
-**VIEW DATA ORGANIZATION** | (STATA)
--------------------------- | --------------------------
-  **`describe`**: display variable type, format, and any value/variable labels | **`count`**: number of rows (observations) Can be combined with logic
-**`lookfor "in."`**: search for variable types, variable name, or variable label | **`isid`**: check if mpg uniquely identifies the data
-
-
-**SEE DATA DISTRIBUTION**  | (STATA)
--------------------------- | --------------------------
-  **`codebook`**: overview of variable type, stats, number of missing/unique values | **`summarize`**: print summary statistics (mean, stdev, min, max) for variables
-**`inspect`**: show histogram of data, number of missing or zero observations | **`histogram`**: plot a histogram of the distribution of a variable
-
-### STATA - Import Data
-- **`browse`**: open the data editor
-- **`list make price if price > 10000 & !missing(price)`**: list the make and price for observations with price > $10,000
-- **`display price[4]`**: display the 4th observation in price; only works on single values
-- **`gsort price mpg & gsort–price–mpg`**: sort in order, first by price then miles per gallon
-- **`duplicates report`**: finds all duplicate values in each variable
-- **`assert price!=.`**: verify truth of claim
-- **`levelsof rep78`**: display the unique values for rep78
-
-### STATA - Create New Variables
-- **`generate mpgSq = mpg^2 `**: create a new variable
-- **`generate id = _n`**: _n creates a running index of observations in a group
-- **`generate totRows = _N`**: _N creates a running count of the total observations per group
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
 
 
 
-## `STATA Data Visualization`
-
-### STATA - One Variable (Continuous & Discrete)
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/One%20Variable.jpg)
-
-### STATA - Two Variables (Continuous)
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/TWO%20CONTINUOUS%20VARIABLES.JPG)
-
-### STATA - Three Variables 
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Three%20Variables.JPG)
-
-### STATA - Customizing Appearance
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Plot1.JPG)
-
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Plot2.JPG)
+png("/home/yasin/Desktop/mahfiegilmez/imgs/03.buyume.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = buyume,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "Büyüme"), size = 0.2) +  #***
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
 
 
-
-## `STATA Data Transformation`
-
-### STATA - Manipulate Strings
-- **`display length`**: return the length of the string
-- **`charlist`**: display the set of unique characters within a string
-- **`display strpos("Stata", "a")`**: return the position in Stata where a is first found
-- **`display strmatch("123.89", "1??.?9")`**: return true (1) or false (0) if string matches pattern
-- **`display stritrim(" Too much Space")`**: replace consecutive spaces with a single space
-- **`display trim(" leading / trailing spaces ")`**: remove extra spaces before and after a string
-- **`display real("100")`**: convert string to a numeric or missing value
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı Büyüme Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/03.buyume.png)")  #***
+cat("\n")
+sink()
 
 
 
-## `STATA Programming`
-
-### STATA - Loops: Automate Repetitive Tasks
-Stata has three options for repeating commands over lists or values: foreach, forvalues, and while. Though each has a different first line, the syntax is consistent:
-  
-  ![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Loop.JPG)
-
-### STATA - Debugging Code
-- **`set trace on (off)`**: trace the execution of programs for error checking
-
-## `STATA - Data Analysis`
-
-### STATA - Estimate Models
-
-- **`regress`**: estimate ordinary least squares (OLS) model
-- **`rreg`**: estimate robust regression to eliminate outliers
-- **`probit`**: estimate probit regression 
-- **`logit`**: estimate logistic regression
-
-### STATA - Estimation with Categorical & Factor Variables
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Estimation%20with%20Categorical.JPG)
 
 
-### STATA - Declare Data
+#### 04.İŞSİZLİK ####
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat('### İşsizlik rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
+cat("\n")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **İşsizlik** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
 
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/Data.JPG)
+cat("\n")
+
+wilcox.test(issizlik~period)  #***
+
+cat("\n")
+
+t.test(issizlik~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
 
 
-## `STATA Applied Econometrics`
 
-- Introducing Stata 
-- Simple Linear Regression 
-- Interval Estimation and Hypothesis Testing 
-- Prediction, Goodness of Fit and Modeling Issues 
-- Multiple Linear Regression 
-- Further Inference in the Multiple Regression Model 
-- Using Indicator Variables 
-- Heteroskedasticity 
-- Regression with Time-Series Data: Stationary Variables 
-- Random Regressors and Moment Based Estimation 
-- Simultaneous Equations Models 
-- Regression with Time-Series Data: Nonstationary Variables 
-- Vector Error Correction and Vector Autoregressive Models 
-- Time-Varying Volatility and ARCH Models 
-- Panel Data Models 
-- Qualitative and Limited Dependent Variable Models
+png("/home/yasin/Desktop/mahfiegilmez/imgs/04.issizlik.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = issizlik,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "İşsizlik"), size = 0.2) +  #***
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
 
-## `STATA Code Samples`
 
-- Count_Data_Models.do
-- Durbin_Watson_Test.do
-- Error_Correlation_Model.do
-- Factor_Analysis.do
-- Further_Inference_in_the_Multiple_Regression_Model.do
-- Graphing_Time_Series_Data.do
-- Heteroskedasticity.do
-- Instrumental_Variables_Estimation.do
-- Introducing_Stata.do
-- Limited_Dependent_Variable.do
-- Logistic_Regression.do
-- Panel_Data.do
-- Principal_Component_Analysis.do
-- Propensity_Score_Matching.do
-- Quantile_Regression.do
-- Regression_with_Time-Series_Data-Nonstationary_Variables.do
-- Seemingly_Unrelated_Regressions.do
-- Simple_Linear_Regression.do
-- Spatial_Econometrics.do
-- Survival_Analysis.do
-- The_Multiple_Regression_Model.do
-- Time_Series_ARIMA.do
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı İşsizlik Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/04.issizlik.png)")  #***
+cat("\n")
+sink()
 
-## `Additional Topics Applied Econometrics (SPSS & R)`
 
-- `R Applied Econometrics`
-- Probit and Logit Models
 
-- `SPSS Applied Econometrics`
-- Introducing SPSS
-- Linear Regression Model 
+#### 05.ENFLASYON ####
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat('### Enflasyon rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
+cat("\n")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **TÜFE** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
 
-- `STATA Applied Econometrics`
-- Mathematical Tools
-- Probability Concepts
-- Statistical Inference
+cat("\n")
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+wilcox.test(enflasyon~period)  #***
+
+cat("\n")
+
+t.test(enflasyon~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
+
+
+
+png("/home/yasin/Desktop/mahfiegilmez/imgs/05.enflasyon.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = enflasyon,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "Enflasyon"), size = 0.2) +
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
+
+
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı Enflasyon Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/05.enflasyon.png)")  #***
+cat("\n")
+sink()
+
+
+
+
+#### 06.BÜTÇE DENGESİ ####
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat('### Bütçe Dengesi rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
+cat("\n")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Bütçe Dengesi / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
+
+cat("\n")
+
+wilcox.test(butcedenge~period)  #***
+
+cat("\n")
+
+t.test(butcedenge~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
+
+
+
+png("/home/yasin/Desktop/mahfiegilmez/imgs/06.butcedengesi.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = butcedenge,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "Bütçe Dengesi"), size = 0.2) +
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
+
+
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı Bütçe Dengesi Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/06.butcedengesi.png)")  #***
+cat("\n")
+sink()
+
+
+
+
+#### 07.CARİ DENGE ####
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat('### Cari denge rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
+cat("\n")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Cari Denge / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
+
+cat("\n")
+
+wilcox.test(caridenge~period)  #***
+
+cat("\n")
+
+t.test(caridenge~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
+
+
+
+png("/home/yasin/Desktop/mahfiegilmez/imgs/07.caridenge.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = caridenge,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "Cari Denge"), size = 0.2) +
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
+
+
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı Cari Denge Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/07.caridenge.png)")  #***
+cat("\n")
+sink()
+
+
+
+
+
+
+#### 08. Dış Borç Büyümesi ####
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat('### Dış Borç Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi')  #***
+cat("\n")
+cat('- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Dış Borç (Milyar USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.')  #***
+
+cat("\n")
+
+wilcox.test(disborcbuyumesi~period)  #***
+
+cat("\n")
+
+t.test(disborcbuyumesi~period) #***
+
+cat('- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.')  #***
+cat("\n")
+cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.') 
+cat("\n")
+sink()
+
+
+
+png("/home/yasin/Desktop/mahfiegilmez/imgs/08.disborcbuyumesi.png", width = w, height = h) 
+ggplot(me, aes(x = yillar, y = disborcbuyumesi,group=period)) +  #***
+  geom_point(alpha=0) +
+  geom_line(aes(color = "Dış Borç Büyümesi"), size = 0.2) +
+  stat_smooth(method = 'lm', aes(colour = 'Trend'), se = FALSE) +
+  stat_smooth(method = "loess", aes(colour = 'Loess Curve')) 
+dev.off()
+
+
+sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
+cat("\n")
+cat('### Yapısal Kırılmalı Dış Borç Eğilim Şekli')  #***
+cat("\n")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/08.disborcbuyumesi.png)")  #***
+cat("\n")
+sink()
+
