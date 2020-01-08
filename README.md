@@ -101,7 +101,7 @@ mean in group 0 mean in group 1
 ### Yapısal Kırılmalı Büyüme Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/03.buyume.png)
 ### İşsizlik rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
-- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **İşsizlik** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **İşsizlik** altında yer alan rakamları karşılaştırılmıştır.
 
 
 
@@ -131,7 +131,7 @@ mean in group 0 mean in group 1
 ### Yapısal Kırılmalı İşsizlik Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/04.issizlik.png)
 ### Enflasyon rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
-- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **TÜFE** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **TÜFE** altında yer alan rakamları karşılaştırılmıştır.
 
 
 
@@ -161,7 +161,7 @@ mean in group 0 mean in group 1
 ### Yapısal Kırılmalı Enflasyon Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/05.enflasyon.png)
 ### Bütçe Dengesi rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
-- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Bütçe Dengesi / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Bütçe Dengesi / GSYH (%)** altında yer alan rakamları karşılaştırılmıştır.
 
 
 
@@ -191,7 +191,7 @@ mean in group 0 mean in group 1
 ### Yapısal Kırılmalı Bütçe Dengesi Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/06.butcedengesi.png)
 ### Cari denge rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
-- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Cari Denge / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Cari Denge / GSYH (%)** altında yer alan rakamları karşılaştırılmıştır.
 
 
 
@@ -221,7 +221,7 @@ mean in group 0 mean in group 1
 ### Yapısal Kırılmalı Cari Denge Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/07.caridenge.png)
 ### Dış Borç Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
-- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Dış Borç (Milyar USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+- Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Dış Borç (Milyar USD)** altında yer alan rakamları karşılaştırılmıştır.
 
 
 
