@@ -3,14 +3,18 @@
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
 - İlgili yazıya şuradan ulaşıabilir: http://www.mahfiegilmez.com/2020/01/turkiye-ekonomisinin-son-17-yl.html
 - Belirtilen kırılım "period" değişkeni altında kodlanmış olup, öncesi dönem period=0, sonrası dönem period=1 olarak işlenmektedir.
-- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikkate alınmalıdır.
+- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikakte alınmalıdır.
 - Tüm çalışma açık kaynak kodlu olarak gerçekleştirilmiştir.
 - İlgili kodlar mahfiegilmez.R dosyası indirilerek, veriler ise mahfiegilmez.{xlsx/csv} dosyaları indirilerek tekrarlanabilir.
 /Y.
 
 ## Değişim veya Oransal Veriler Üzerine Bağımsız İki Örneklem Testleri
-### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem [bundan sonra MWU] Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **GSYH (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
+
 
 	Wilcoxon rank sum test
 
@@ -36,8 +40,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı %D(GSYİH) Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/01.gsyihbuyumesi.png)
-### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Kişi Başına Gelir (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test
 
@@ -63,8 +70,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı %D(KBGSYİH) Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/02.kbgsyihbuyumesi.png)
-### Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Büyüme** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test with continuity correction
 
@@ -90,8 +100,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı Büyüme Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/03.buyume.png)
-### İşsizlik rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### İşsizlik rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **İşsizlik** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test with continuity correction
 
@@ -117,8 +130,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı İşsizlik Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/04.issizlik.png)
-### Enflasyon rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### Enflasyon rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **TÜFE** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test
 
@@ -144,8 +160,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı Enflasyon Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/05.enflasyon.png)
-### Bütçe Dengesi rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### Bütçe Dengesi rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Bütçe Dengesi / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test with continuity correction
 
@@ -171,8 +190,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı Bütçe Dengesi Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/06.butcedengesi.png)
-### Cari denge rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### Cari denge rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Cari Denge / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test with continuity correction
 
@@ -198,8 +220,11 @@ mean in group 0 mean in group 1
 
 ### Yapısal Kırılmalı Cari Denge Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/07.caridenge.png)
-### Dış Borç Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
+### Dış Borç Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Dış Borç (Milyar USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
+
+
+
 
 	Wilcoxon rank sum test
 
