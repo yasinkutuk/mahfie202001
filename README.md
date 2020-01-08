@@ -1,3 +1,4 @@
+[1] 2
 # Mahfi Eğilmez - Türkiye Ekonomisinin Son 17 Yılı
 - Bu çalışma içerisinde Altınbaş Üniversitesi, Ekonomi Bölümü, Dr. Öğr. Ü. Mahfi Eğilmez Hocamın
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
@@ -35,7 +36,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı %D(GSYİH) Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/01.gsyihbuyumesi.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/01.gsyihbuyumesi.png)
 ### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Kişi Başına Gelir (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -62,7 +63,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı %D(KBGSYİH) Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/02.kbgsyihbuyumesi.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/02.kbgsyihbuyumesi.png)
 ### Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Büyüme** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -89,7 +90,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Büyüme Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/03.buyume.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/03.buyume.png)
 ### İşsizlik rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **İşsizlik** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -116,7 +117,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı İşsizlik Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/04.issizlik.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/04.issizlik.png)
 ### Enflasyon rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **TÜFE** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -143,7 +144,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Enflasyon Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/05.enflasyon.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/05.enflasyon.png)
 ### Bütçe Dengesi rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Bütçe Dengesi / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -170,7 +171,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Bütçe Dengesi Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/06.butcedengesi.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/06.butcedengesi.png)
 ### Cari denge rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Cari Denge / GSYH (%)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -197,7 +198,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Cari Denge Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/07.caridenge.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/07.caridenge.png)
 ### Dış Borç Büyüme rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem Median Testi [bundan sonra MWU] ve Bağımsız Örneklem T-Testi
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **Dış Borç (Milyar USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
@@ -224,7 +225,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Dış Borç Eğilim Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/08.disborcbuyumesi.png)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/08.disborcbuyumesi.png)
 # Yayım
 Tüm hatalardan bu kodların sahibi sorumludur.
 Geri bildirimleriniz için yasinkutuk@gmail.com.
