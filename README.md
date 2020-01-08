@@ -35,7 +35,7 @@ mean in group 0 mean in group 1
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı %D(GSYİH) Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/tree/master/imgs/01.gsyihbuyumesi.jpg)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/01.gsyihbuyumesi.png)
 
 ### Yapısal Kırılmalı %D(GSYİH) Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/01.gsyihbuyumesi.jpg)
