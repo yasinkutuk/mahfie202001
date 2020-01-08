@@ -4,7 +4,7 @@
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
 - İlgili yazıya şuradan ulaşıabilir: http://www.mahfiegilmez.com/2020/01/turkiye-ekonomisinin-son-17-yl.html
 - Belirtilen kırılım "period" değişkeni altında kodlanmış olup, öncesi dönem period=0, sonrası dönem period=1 olarak işlenmektedir.
-- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikkate alınmalıdır.
+- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikakte alınmalıdır.
 - Tüm çalışma açık kaynak kodlu olarak gerçekleştirilmiştir.
 /Y.
 
@@ -33,9 +33,8 @@ mean in group 0 mean in group 1
 
 - Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
-### Yapısal Kırılmalı %D(GSYİH) Şekli
-![alt text](https://github.com/David-SF2290/Advanced_Applied_Econometrics/blob/master/Graph_Doc/One%20Variable.jpg)RStudioGD 
-        2 
 RStudioGD 
         2 
-# mahfie202001
+
+### Yapısal Kırılmalı %D(GSYİH) Şekli
+![alt text](https://github.com/yasinkutuk/mahfie202001/01.gsyihbuyumesi.jpg)
