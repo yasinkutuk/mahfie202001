@@ -48,7 +48,7 @@ cat('- Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yin
 cat("\n")
 sink()
 
-png("/home/yasin/Desktop/mahfiegilmez/01.gsyihbuyumesi.png", width = w, height = h) 
+png("/home/yasin/Desktop/mahfiegilmez/imgs/01.gsyihbuyumesi.png", width = w, height = h) 
 ggplot(me, aes(x = yillar, y = gsyihbuyumesi,group=period)) +
   geom_point(alpha=0) +
   geom_line(aes(color = "GSYİH Büyümesi"), size = 0.2) +
@@ -61,7 +61,7 @@ cat("\n")
 sink(file = '/home/yasin/Desktop/mahfiegilmez/README.md', append = T)
 cat('### Yapısal Kırılmalı %D(GSYİH) Şekli')
 cat("\n")
-cat("![alt text](https://github.com/yasinkutuk/mahfie202001/01.gsyihbuyumesi.jpg)")
+cat("![alt text](https://github.com/yasinkutuk/mahfie202001/imgs/blob/master/imgs/01.gsyihbuyumesi.jpg)")
 cat("\n")
 
 

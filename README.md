@@ -33,11 +33,6 @@ mean in group 0 mean in group 1
 
 - Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
-<<<<<<< HEAD
-RStudioGD 
-        2 
 
-=======
->>>>>>> b88b68b01bce659fbcc9724c53cfaf998b67b7f6
 ### Yapısal Kırılmalı %D(GSYİH) Şekli
-![alt text](https://github.com/yasinkutuk/mahfie202001/01.gsyihbuyumesi.jpg)
+![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/01.gsyihbuyumesi.jpg)
