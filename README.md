@@ -252,5 +252,5 @@ mean in group 0 mean in group 1
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/08.disborcbuyumesi.png)
 # Yayım
 Tüm hatalardan bu kodların sahibi sorumludur.
-Geri bildirimlerinii için yasinkutuk@gmail.com.
+Geri bildirimleriniz için yasinkutuk@gmail.com.
 Teşekkürler, /Y.
