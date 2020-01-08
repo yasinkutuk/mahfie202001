@@ -3,7 +3,7 @@
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
 - İlgili yazıya şuradan ulaşıabilir: http://www.mahfiegilmez.com/2020/01/turkiye-ekonomisinin-son-17-yl.html
 - Belirtilen kırılım "period" değişkeni altında kodlanmış olup, öncesi dönem period=0, sonrası dönem period=1 olarak işlenmektedir.
-- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikakte alınmalıdır.
+- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikkate alınmalıdır.
 - Tüm çalışma açık kaynak kodlu olarak gerçekleştirilmiştir.
 - İlgili kodlar mahfiegilmez.R dosyası indirilerek, veriler ise mahfiegilmez.{xlsx/csv} dosyaları indirilerek tekrarlanabilir.
 /Y.
