@@ -1,4 +1,3 @@
-[1] 2
 # Mahfi Eğilmez - Türkiye Ekonomisinin Son 17 Yılı
 - Bu çalışma içerisinde Altınbaş Üniversitesi, Ekonomi Bölümü, Dr. Öğr. Ü. Mahfi Eğilmez Hocamın
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
@@ -32,7 +31,7 @@ sample estimates:
 mean in group 0 mean in group 1 
        9.240000        7.749412 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **bulunmamaktadır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı %D(GSYİH) Eğilim Şekli
@@ -59,7 +58,7 @@ sample estimates:
 mean in group 0 mean in group 1 
        7.611176        6.545294 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **bulunmamaktadır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı %D(KBGSYİH) Eğilim Şekli
@@ -86,7 +85,7 @@ sample estimates:
 mean in group 0 mean in group 1 
        3.900000        5.335294 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **bulunmamaktadır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Büyüme Eğilim Şekli
@@ -113,7 +112,7 @@ sample estimates:
 mean in group 0 mean in group 1 
         8.00000        10.90588 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **vardır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı İşsizlik Eğilim Şekli
@@ -140,7 +139,7 @@ sample estimates:
 mean in group 0 mean in group 1 
           66.45           10.00 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **vardır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Enflasyon Eğilim Şekli
@@ -167,7 +166,7 @@ sample estimates:
 mean in group 0 mean in group 1 
       -5.911111       -2.435294 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **vardır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Bütçe Dengesi Eğilim Şekli
@@ -194,7 +193,7 @@ sample estimates:
 mean in group 0 mean in group 1 
      -0.6666667      -4.7117647 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **vardır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Cari Denge Eğilim Şekli
@@ -221,12 +220,12 @@ sample estimates:
 mean in group 0 mean in group 1 
       10.350000        7.783529 
 
-- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık bulunmamaktadır.
+- Yukarıda, MWU testinin sonuçlarına göre iki period arasında farklılık **bulunmamaktadır**.
 - Uyarlık bulunmamasına rağmen katsayısal olan (parametrik) t-testi yine de sunulmuş ancak yorumlanmamıştır.
 
 ### Yapısal Kırılmalı Dış Borç Eğilim Şekli
 ![alt text](https://github.com/yasinkutuk/mahfie202001/blob/master/imgs/08.disborcbuyumesi.png)
 # Yayım
 Tüm hatalardan bu kodların sahibi sorumludur.
-Geri bildirimleriniz için yasinkutuk@gmail.com.
+Geri bildirimlerinii için yasinkutuk@gmail.com.
 Teşekkürler, /Y.
