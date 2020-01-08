@@ -3,13 +3,13 @@
     "Türkiye Ekonomisinin Son 17 Yılı" içerisinde derlediği veriler analiz edilmektedir.
 - İlgili yazıya şuradan ulaşıabilir: http://www.mahfiegilmez.com/2020/01/turkiye-ekonomisinin-son-17-yl.html
 - Belirtilen kırılım "period" değişkeni altında kodlanmış olup, öncesi dönem period=0, sonrası dönem period=1 olarak işlenmektedir.
-- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikakte alınmalıdır.
+- Karşılaştırmalı gruplarda bağımsız örneklem sayısı 302un altında kaldığından "katsayısal olmayan" [non-parametrik, çev. Ümit Şenesen] testler dikkate alınmalıdır.
 - Tüm çalışma açık kaynak kodlu olarak gerçekleştirilmiştir.
 - İlgili kodlar mahfiegilmez.R dosyası indirilerek, veriler ise mahfiegilmez.{xlsx/csv} dosyaları indirilerek tekrarlanabilir.
 /Y.
 
 ## Değişim veya Oransal Veriler Üzerine Bağımsız İki Örneklem Testleri
-### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem [bundan sonra MWU] Median Testi ve Bağımsız Örneklem T-Testi
+### GSYİH-USD Büyüme %D(GSYİH-USSD) rakamlarının karşılaştırılması (Katsayısal olmayan Mann-Whitney-U Bağımsız Örneklem [bundan sonra MWU, esasen iki dağılım benzerliği] Median Testi  ve Bağımsız Örneklem T-Testi)
 - Aşağıda 2002 yılı kırılım alınarak, ilgili yazıda **GSYH (USD)** altında yer alan rakamların büyüme oranları karşılaştırılmıştır.
 
 
